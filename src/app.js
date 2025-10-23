@@ -8,7 +8,7 @@ const PORT = process.env.PORT || 8080;
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-app.use("/health-check", healthRouter);
+app.use("/", healthRouter);
 
 app.get("/", (req, res) => {
 	return res.status(200).json({
