@@ -1,11 +1,11 @@
 # Global code owners
-
-*   @santi @team-lead
+* @sfonzo96
 
 # Specific file ownership
-
-/.github/workflows/ @santi /docker-compose\*.yml @santi /Dockerfile @santi
+/.github/workflows/ @sfonzo96
+/docker-compose*.yml @sfonzo96
+/Dockerfile @sfonzo96
 
 # Documentation
-
-/docs/ @team-lead /README.md @team-lead
+/docs/ @sfonzo96
+/README.md @sfonzo96
