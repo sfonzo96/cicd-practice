@@ -1,0 +1,11 @@
+# Global code owners
+* @sfonzo96
+
+# Specific file ownership
+/.github/workflows/ @sfonzo96
+/docker-compose*.yml @sfonzo96
+/Dockerfile @sfonzo96
+
+# Documentation
+/docs/ @sfonzo96
+/README.md @sfonzo96
